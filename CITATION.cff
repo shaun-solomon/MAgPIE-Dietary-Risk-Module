@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MAgPIE Dietary Risk Module"
+type: software
+
+authors:
+  - family-names: Solomon
+    given-names: Shaun
+    affiliation: "Environmental Change Institute, University of Oxford"
+
+  - family-names: Lord
+    given-names: Steven
+    affiliation: "Environmental Change Institute, University of Oxford"
+
+  - family-names: Paulus
+    given-names: Estelle
+    affiliation: "Environmental Change Institute, University of Oxford"
+
+year: 2026
+license: "MIT"
