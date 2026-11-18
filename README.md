@@ -2,13 +2,13 @@
 
 ## Overview 
 
-The **MAgPIE Dietary Risk Module** is a Python-based comparative risk assessment model that links changes in food intake from the [food demand module](https://rse.pik-potsdam.de/doc/magpie/4.6.0/15_food.htm) of the Model of Agricultural Production and its Impact on the Environment [MAgPIE](https://www.pik-potsdam.de/en/institute/departments/activities/land-use-modelling/magpie) (1) with dietary-risk exposures, relative-risk functions, and theoretical minimum risk exposure levels (TMRELs) from an emulator of the Global Burden of Disease (GBD) Diet–NCD model (2). This emulator [GBD Diet-NCD Emulator](https://github.com/shaun-solomon/GBD-Diet-NCD-Model-Emulator) estimates the burden of non-communicable diseases attributable to suboptimal diets.
+The **MAgPIE Dietary Risk Module** is a Python-based comparative risk assessment model that links changes in food intake from the [food demand module](https://rse.pik-potsdam.de/doc/magpie/4.6.0/15_food.htm) of the Model of Agricultural Production and its Impact on the Environment [MAgPIE](https://www.pik-potsdam.de/en/institute/departments/activities/land-use-modelling/magpie) (1) with dietary-risk exposures, relative-risk functions, and theoretical minimum risk exposure levels (TMRELs) from an emulator of the Global Burden of Disease (GBD) Diet–NCD model (2). The [GBD Diet-NCD Emulator](https://github.com/shaun-solomon/GBD-Diet-NCD-Model-Emulator) estimates the burden of non-communicable diseases attributable to suboptimal diets.
 
 For documentation of the emulator, validation results, and further information on its analytical capabilities, refer to [Additional Information](https://github.com/shaun-solomon/GBD-Diet-NCD-Model-Emulator/tree/main/Additional%20Information). 
 
 This module translates scenario-specific changes in food intake into changes in dietary risk exposure and estimates the associated burden of disease across countries, age groups, sexes, years, and scenarios. Health outcomes are quantified using disability-adjusted life years (DALYs). 
 
-This repository contains the model code, the required directory structure for model inputs and outputs, and a user guide. The full input dataset is distributed separately through Zenodo and must be downloaded before the model can be run. 
+This repository contains the model code, the required directory structure for model inputs and outputs, and a user guide. The full input dataset is distributed separately through [Zenodo]() and must be downloaded before the model can be run. 
 
 ## Technical Documentation 
 
@@ -44,7 +44,7 @@ The model uses relative paths from the `Code` directory, so the final repository
 
 ## Contact 
 
-For questions regarding the module, or to request access to the private code repository and associated data, please contact:
+For questions regarding the module, or to request access to the private data repository, please contact:
 
 **Shaun Solomon**  
 Research Programmer and Data Analyst for Food System Economic Cost Modelling 
