@@ -8,15 +8,15 @@ For documentation of the emulator, validation results, and further information o
 
 This module translates scenario-specific changes in food intake into changes in dietary risk exposure and estimates the associated burden of disease across countries, age groups, sexes, years, and scenarios. Health outcomes are quantified using disability-adjusted life years (DALYs). 
 
-This repository contains the model code, the required directory structure for model inputs and outputs, and a user guide. The full input dataset is distributed separately through [Zenodo]() and must be downloaded before the model can be run. 
+This repository contains the model code, the required directory structure for model inputs and outputs, and a user guide. The full input dataset is distributed separately through [Zenodo](https://zenodo.org/records/24344571) and must be downloaded before the model can be run. 
 
 ## Technical Documentation 
 
 Two complementary documentation resources are provided for the MAgPIE Dietary Risk Module:
 
-- **Technical Reference** - A web-based technical reference descrbing the soft-coupling between the modules, inputs, outputs, assumptions, calculations and analytical worflow. [View technical documentation](Add GitHub page link)
+- **Technical Reference** - A web-based technical reference descrbing the soft-coupling between the modules, inputs, outputs, assumptions, calculations and analytical worflow. [View technical documentation](https://shaun-solomon.github.io/MAgPIE-Dietary-Risk-Module/)
 
-- **User Guide** - a PDF guide providing step-by-step instructions for running the module. The guide covers software requirements, repository setup, required input file structures, command-line execution, optional narrative adjustments, disease-burden projections, model outputs and a pre-run checklist. Refer to *MAgPIE_Dietary_Module_User_Guide.pdf* in the *Supplementary Information* folder in the repository.  
+- **User Guide** - a PDF guide providing step-by-step instructions for running the module. The guide covers software requirements, repository setup, required input file structures, command-line execution, optional narrative adjustments, disease-burden projections, model outputs and a pre-run checklist. Refer to *MAgPIE_Dietary_Module_User_Guide.pdf* in the [Supplementary Information](https://github.com/shaun-solomon/MAgPIE-Dietary-Risk-Module/tree/main/Supplementary%20Information) folder in the repository.  
 
 Users interested in the underlying methodology should refer to the technical documentation, while users primarily interested in running the module should begin with the user guide.
 
@@ -28,7 +28,7 @@ The GitHub repository contains a **stub `Data` directory** only. This preserves 
 
 Before running the model:
 
-1. Download the complete data archive from Zenodo: [add Zenodo link].
+1. Download the complete data archive from Zenodo: [https://zenodo.org/records/24344571].
 2. Extract the archive.
 3. Replace the existing stub `Data` directory in the GitHub repository with the extracted `Data` directory.
 4. Preserve the directory structure and file names exactly as provided.
@@ -54,7 +54,7 @@ Email: shaun.solomon@ouce.ox.ac.uk
 
 ## Citation
 
-Please cite the module and associated work when using this repository or derivative outputs. A suggested format and BibTeX has been provided in the repository’s CITATION.cff. Also cite the GBD methodology and any specific IHME data products used.
+Please cite the module and associated work when using this repository or derived outputs. A suggested format and BibTeX has been provided in the repository’s CITATION.cff. Also cite the GBD methodology and any specific IHME data products used.
 
 ## References 
 
